@@ -1,0 +1,62 @@
+{
+  "idToTestNameHash": {
+    "FrScTe1": "From Scratch Tests measureRain - logs the right message based on rain amount",
+    "FrScTe2": "From Scratch Tests happyBirthdayPet - logs the right message based on breed and age",
+    "FrScTe3": "From Scratch Tests funTypes - logs the right message based on type",
+    "FrScTe4": "From Scratch Tests rounder - returns the right number based on rounding setting",
+    "FrScTe5": "From Scratch Tests fizzBuzzish - logs the right message based on the number",
+    "MoTe1": "Modify Tests wildlyBiasedReview - uses a guard clause",
+    "MoTe2": "Modify Tests wildlyBiasedReview - logs the right message based on location",
+    "DeTe1": "Debug Tests getRandomIntInRange - returns a random number between min and max",
+    "DeTe2": "Debug Tests coolnessGauge - returns the right message based on a number",
+    "DeTe3": "Debug Tests funkoPopAddictionLevel - returns the right message based on a number",
+    "DeTe4": "Debug Tests getWeatherReport - lifts scope properly",
+    "DeTe5": "Debug Tests getWeatherReport - returns the right message based on a number",
+    "DeTe6": "Debug Tests returnPositiveNegativeZero - only uses one ternary (if any)",
+    "DeTe7": "Debug Tests returnPositiveNegativeZero - returns the right message based on a number"
+  },
+  "testNameToIdHash": {
+    "From Scratch Tests measureRain - logs the right message based on rain amount": "FrScTe1",
+    "From Scratch Tests happyBirthdayPet - logs the right message based on breed and age": "FrScTe2",
+    "From Scratch Tests funTypes - logs the right message based on type": "FrScTe3",
+    "From Scratch Tests rounder - returns the right number based on rounding setting": "FrScTe4",
+    "From Scratch Tests fizzBuzzish - logs the right message based on the number": "FrScTe5",
+    "Modify Tests wildlyBiasedReview - uses a guard clause": "MoTe1",
+    "Modify Tests wildlyBiasedReview - logs the right message based on location": "MoTe2",
+    "Debug Tests getRandomIntInRange - returns a random number between min and max": "DeTe1",
+    "Debug Tests coolnessGauge - returns the right message based on a number": "DeTe2",
+    "Debug Tests funkoPopAddictionLevel - returns the right message based on a number": "DeTe3",
+    "Debug Tests getWeatherReport - lifts scope properly": "DeTe4",
+    "Debug Tests getWeatherReport - returns the right message based on a number": "DeTe5",
+    "Debug Tests returnPositiveNegativeZero - only uses one ternary (if any)": "DeTe6",
+    "Debug Tests returnPositiveNegativeZero - returns the right message based on a number": "DeTe7"
+  },
+  "testScores": {
+    "From Scratch Tests": {
+      "FrScTe1": 0,
+      "FrScTe2": 0,
+      "FrScTe3": 0,
+      "FrScTe4": 0,
+      "FrScTe5": 0
+    },
+    "Modify Tests": {
+      "MoTe1": 0,
+      "MoTe2": 0
+    },
+    "Debug Tests": {
+      "DeTe1": 0,
+      "DeTe2": 0,
+      "DeTe3": 0,
+      "DeTe4": 0,
+      "DeTe5": 0,
+      "DeTe6": 0,
+      "DeTe7": 0
+    }
+  },
+  "humanReadable": {
+    "From Scratch Tests": "0/5",
+    "finalTestScore": "FINAL SCORE: 0/14",
+    "Modify Tests": "0/2",
+    "Debug Tests": "0/7"
+  }
+}
