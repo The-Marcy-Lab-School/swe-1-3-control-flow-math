@@ -107,7 +107,7 @@ describe(testSuiteName, () => {
     funTypes({});
     expect(log).toHaveBeenNthCalledWith(9, 'Anybody got the key?');
     funTypes([]);
-    expect(log).toHaveBeenNthCalledWith(10, 'I order you to indexed.');
+    expect(log).toHaveBeenNthCalledWith(10, 'I order you to be indexed.');
     funTypes(NaN);
     expect(log).toHaveBeenNthCalledWith(11, "Well, now you're just showing off.");
 

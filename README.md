@@ -53,7 +53,7 @@ Write a function `funTypes` that takes an argument `jsType`. The type could be o
 - undefined - "Nothing, but I didn't set that."
 - null - "Nothing, and I did set that."
 - an object - "Anybody got the key?"
-- an array - "I order you to indexed."
+- an array - "I order you to be indexed."
 - NaN - "Well, now you're just showing off."
 
 # Question 4: rounder
