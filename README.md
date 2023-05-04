@@ -68,6 +68,7 @@ Write a function `fizzBuzzish` that takes a single argument: an integer `num`. I
 - number is divisible by 3 - 'fizz'
 - number is divisible by 5 - 'buzz'
 - number is divisible by both 3 *and* 5 - 'fizzBuzz!'
+- number is none of those - just log the number
 
 Note: I'm well aware the solution to this problem is *everywhere* but solving it is a right of passage. So try to figure it out on your own first, ok? -- Mike
 
