@@ -1,7 +1,7 @@
 # 1.0.2 - Flow Control and Math
 
+- [Get Set Up](#get-set-up)
 - [Before you start](#before-you-start)
-  - [Get Set Up](#get-set-up)
 - [Questions](#questions)
   - [Question 1: measureRain](#question-1-measurerain)
   - [Question 2: happyBirthdayPet](#question-2-happybirthdaypet)
@@ -16,6 +16,10 @@
   - [Question 11: DEBUG - fix returnPositiveNegativeZero](#question-11-debug---fix-returnpositivenegativezero)
   - [Bonus: Switch Cases!](#bonus-switch-cases)
 
+## Get Set Up
+
+For guidance on setting up and submitting this assignment, refer to the Marcy lab School Docs How-To guide for [Working with Short Response and Coding Assignments](https://marcylabschool.gitbook.io/marcy-lab-school-docs/fullstack-curriculum/how-tos/working-with-assignments#how-to-work-on-assignments).
+
 ## Before you start
 We're using `console.log` a lot in our code, which means our tests need to be a little more complicated. We'll need to `mock` the `console.log` function in order to `spy` on the arguments it's called with. 
 
@@ -28,10 +32,6 @@ The other big thing this does is remove your `console.log` for the purpose of de
 Other than that, just be *very* careful about exactly what the test cases are expecting. Outputs must be perfect! "hello there" and "Hello there!" are *not* equal. And if you're confused about what a question is asking for, check what the tests literally expect. We've included a `playground.js` file and script, don't forget to install and test frequently!
 
 Good luck!
-
-### Get Set Up
-
-For guidance on setting up and submitting this assignment, refer to the Marcy lab School Docs How-To guide for [Working with Short Response and Coding Assignments](https://marcylabschool.gitbook.io/marcy-lab-school-docs/fullstack-curriculum/how-tos/working-with-assignments#what-is-a-swe-sr-assignment).
 
 ## Questions
 
