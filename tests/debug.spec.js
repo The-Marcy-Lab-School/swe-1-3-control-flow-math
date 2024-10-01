@@ -6,13 +6,13 @@ const {
   funkoPopAddictionLevel,
   getWeatherReport,
   returnPositiveNegativeZero,
-} = require('./debug');
+} = require('../src/debug');
 
 const testSuiteName = 'Debug Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');
 const scoreCounter = new ScoreCounter(testSuiteName, scoresDir);
 
-const log = jest.spyOn(console, 'log').mockImplementation(() => {});
+const log = jest.spyOn(console, 'log').mockImplementation(() => { });
 
 describe(testSuiteName, () => {
   afterEach(jest.clearAllMocks);

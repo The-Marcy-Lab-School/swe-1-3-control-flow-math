@@ -6,14 +6,14 @@ const {
   funTypes,
   rounder,
   fizzBuzzish,
-} = require('./from-scratch');
+} = require('../src/from-scratch');
 
 const testSuiteName = 'From Scratch Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');
 const scoreCounter = new ScoreCounter(testSuiteName, scoresDir);
 
 // mock console.log with jest mock function
-const log = jest.spyOn(console, 'log').mockImplementation(() => {});
+const log = jest.spyOn(console, 'log').mockImplementation(() => { });
 
 describe(testSuiteName, () => {
   afterEach(jest.clearAllMocks);
