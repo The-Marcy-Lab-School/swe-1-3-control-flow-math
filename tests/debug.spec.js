@@ -34,6 +34,9 @@ describe(testSuiteName, () => {
   });
 
   it('coolnessGauge - returns the right message based on a number', () => {
+    /* 
+    For these tests, we expect coolnessGauage to RETURN the values inside of `toBe()`
+    */
     expect(coolnessGauge(0)).toBe('You need more fridges.');
     expect(coolnessGauge(1)).toBe('You need more fridges.');
     expect(coolnessGauge(2)).toBe('You need more fridges.');
@@ -46,10 +49,27 @@ describe(testSuiteName, () => {
   });
 
   it('funkoPopAddictionLevel - returns the right message based on a number', () => {
+    /* 
+    These tests are invoking the funkoPopAddictionLevel function with increasing values.
+    After we invoke funkoPopAddictionLevel, we expect the function to have printed out a
+    message using `console.log`. Using the line
+    
+    expect(log).toHaveBeenNthCalledWith(invocationNumber, expectedCallValue)
+    
+    we can see if the nth invocation of console.log was called with the expected value
+    */
+
+    // First we test the function with the value 0 which should have printed a message
     expect(funkoPopAddictionLevel(0));
+    // Then we see if the first message printed was "No pops? Maybe try one."
     expect(log).toHaveBeenNthCalledWith(1, 'No pops? Maybe try one.');
+
+    // Next, we test the function with the value 1 which should have printed another message
     expect(funkoPopAddictionLevel(1));
+    // Then we see if the 2nd message was printed was "Only a few? Keep having fun!"
     expect(log).toHaveBeenNthCalledWith(2, 'Only a few? Keep having fun!');
+
+    // and so on...
     expect(funkoPopAddictionLevel(10));
     expect(log).toHaveBeenNthCalledWith(3, 'Only a few? Keep having fun!');
     expect(funkoPopAddictionLevel(11));
