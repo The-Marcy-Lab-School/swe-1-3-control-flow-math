@@ -65,24 +65,28 @@ Write a function `funTypes` that takes an argument `jsType`. The type could be o
 - an array - "I order you to be indexed."
 - NaN - "Well, now you're just showing off."
 
+Some of these won't work using the `typeof` operator. If you're stuck, try Googling "how to tell if a value is of type ____ JavaScript".
+
 ### Question 4: rounder
-Write a function `rounder` that takes two arguments: a float `float` and a string `roundingSetting`. `roundingSetting` could be only one of 3 values `up`, `down`, or `honest`. It should *RETURN* an integer based off the following value of `roundingSetting`:
+Write a function `rounder` that takes two arguments: a decimal number `float` and a string `roundingSetting`. `roundingSetting` could be only one of 3 values `up`, `down`, or `honest`. It should *RETURN* an integer based on the following value of `roundingSetting`:
 - up - the `float` rounded up
 - down - the `float` rounded down
-- honest - the `float` rounded up or down depending on the rounding rules (< .5 round down, >= 5 round up)
+- honest - the `float` rounded up or down depending on the rounding rules (numbers less than .5 round down, numbers greater than or equal to .5 round up)
 
 ### Question 5: fizzBuzzish
 Write a function `fizzBuzzish` that takes a single argument: an integer `num`. It should log a message in the following situations:
 
-- number is divisible by 3 - 'fizz'
-- number is divisible by 5 - 'buzz'
-- number is divisible by both 3 *and* 5 - 'fizzBuzz!'
-- number is none of those - just log the number
+- if the number is divisible by 3 - 'fizz'
+- if the number is divisible by 5 - 'buzz'
+- if the number is divisible by both 3 *and* 5 - 'fizzBuzz!'
+- if the number is none of those - just log the number
 
 Note: I'm well aware the solution to this problem is *everywhere* but solving it is a right of passage. So try to figure it out on your own first, ok? -- Mike
 
 ### Question 6: MODIFY - wildlyBiasedReview
 In `modify.js` we have the function `wildlyBiasedReview` that's not currently using a guard clause. Please keep the functionality the same, but use a guard clause.
+
+A **guard clause** is an `if` statement that returns before the rest of the code gets to execute. When used correctly, it can save you from having to write `else` or `else if` statements.
 
 ### Question 7: DEBUG - Fix getRandomIntInRange
 In `debug.js` we have the function `getRandomIntInRange` that isn't quite doing what we want. Instead of taking 2 integers, an *inclusive* `min` and *exclusive* `max`, and returning a random number in that range, it returns a random number from 0 to the `max`.
@@ -90,14 +94,15 @@ In `debug.js` we have the function `getRandomIntInRange` that isn't quite doing 
 Please fix the function so that it actually operates within the range provided by the arguments.
 
 ### Question 8: DEBUG - Fix coolnessGauge
-In `debug.js` we have a function called `coolnessGauge`. It's using a ternary, but it's returning the exact opposite to what we want. Can you fix it by reading what the tests expect?
+In `debug.js` we have a function called `coolnessGauge`. It's using a ternary, but it's returning the exact opposite of what we want. Can you fix it by reading what the tests expect?
 
 ### Question 9: DEBUG - Fix funkoPopAddictionLevel
-In `debug.js` we have the function `funkoPopAddictionLevel`. It takes an integer `numOfFunkoPops` and logs out a message of support (or concern). However, no matter what, it just only ever says "No pops? Maybe try one." or "Only a few? Keep having fun!". Please read the tests and make sure all the messages are logged properly.
+In `debug.js` we have the function `funkoPopAddictionLevel`. It takes an integer `numOfFunkoPops` and prints out a message of support (or concern). However, no matter what, it just only ever says "No pops? Maybe try one." or "Only a few? Keep having fun!". 
+
+Please read the tests and make sure all the messages are logged properly. To help you understand 
 
 ### Question 10: DEBUG - Fix getWeatherReport
 In `debug.js` we have the function `getWeatherReport` that takes an integer `temperature`. It's supposed to compile a `weatherReport` string, log it out, then log 'And that's your report!', and finally return the `weatherReport` string. But we're getting an error. Can you get the function to work properly without changing its core functionality.
-
 
 ### Question 11: DEBUG - fix returnPositiveNegativeZero
 Oh man, in `debug.js` someone tried getting *real* clever and chaining some ternarys together in `returnPositiveNegativeZero`. However...the logic is broken and the tests are failing. Can you fix this function and only use 1 ternary (if at all) so that the tests pass?
