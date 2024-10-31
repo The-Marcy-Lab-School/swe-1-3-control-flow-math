@@ -6,7 +6,7 @@
     "preinstall": "cp hooks/pre-commit .git/hooks/pre-commit",
     "playground": "nodemon playground.js",
     "lint": "eslint .",
-    "test": "jest --coverage",
+    "test": "jest",
     "test:w": "jest --watchAll"
   },
   "keywords": [],
