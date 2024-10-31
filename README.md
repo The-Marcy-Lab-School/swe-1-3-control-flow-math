@@ -45,13 +45,13 @@ Write a function `measureRain` that takes a single argument, a number `inches`. 
 
 ### Question 2: happyBirthdayPet
 Write a function `happyBirthdayPet` that takes two arguments, a string `breed` and a number `age`. It should log a message in the following situations:
-- 'snake', any age - 'Hiss hiss!'
-- 'cat', less than 5 - 'Mew mew!'
-- 'cat', 5 or more - 'Meow meow!'
-- 'dog', less than 5 - 'Arf arf!'
-- 'dog', 5 to less than 10 - 'Woof woof!'
-- 'dog', 10 or more - 'Boof!'
-By default, just log a message of 'Happy birthday!'
+- 'snake', any age - `'Hiss hiss!'`
+- 'cat', less than 5 - `'Mew mew!'`
+- 'cat', 5 or more - `'Meow meow!'`
+- 'dog', less than 5 - `'Arf arf!'`
+- 'dog', 5 to less than 10 - `'Woof woof!'`
+- 'dog', 10 or more - `'Boof!'`
+- If none of these conditions are met, just log a message of `'Happy birthday!'`
 
 ### Question 3: funTypes
 Write a function `funTypes` that takes an argument `jsType`. The type could be one of the following: a `string`, a `number`, a `boolean`, `undefined`, `null`, an `object`, an `array`, or `NaN`. It should log a message in the following situations:
